@@ -26,7 +26,7 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            ghcr.io/chipclee/rerun/rerun-viewer:${{ github.sha }}
-            ghcr.io/chipclee/rerun/rerun-viewer:main
+            ghcr.io/chipclee/rerun-viewer:${{ github.sha }}
+            ghcr.io/chipclee/rerun-viewer:main
 
     
